@@ -48,6 +48,30 @@ async fn main() {
             WHITE
         );
 
+        draw_text(
+            "RASM's Syntax is Short and Concise!",
+            screen_width() / 2.0 - get_text_length("RASM's Syntax is Short and Concise!", 50.0) / 2.0,
+            screen_height() / 2.0 + 2000.0 + scroll as f32,
+            50.0,
+            WHITE
+        );
+
+        draw_text(
+            "Although RASM is in a very early state!",
+            screen_width() / 2.0 - get_text_length("Although RASM is in a Very Early state!", 50.0) / 2.0,
+            screen_height() / 2.0 + 3000.0 + scroll as f32,
+            50.0,
+            WHITE
+        );
+
+        draw_text(
+            "At the moment RASM can't really do anything but that will hopefully change!",
+            screen_width() / 2.0 - get_text_length("At the moment RASM can't really do anything but that will hopefully change!", 50.0) / 2.0,
+            screen_height() / 2.0 + 4000.0 + scroll as f32,
+            50.0,
+            WHITE
+        );
+
         if debug_mode {
             draw_text(&format!("Scroll: {}", scroll), 0.0, 20.0, 30.0, LIME);
             draw_text(&format!("Max Scroll: {}", max_scroll), 0.0, 50.0, 30.0, LIME);
