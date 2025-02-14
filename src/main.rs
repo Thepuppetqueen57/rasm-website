@@ -72,6 +72,14 @@ async fn main() {
             WHITE
         );
 
+        draw_text(
+            "Github",
+            screen_width() / 2.0 - get_text_length("Github", 30.0) / 2.0,
+            screen_height() / 2.0 + 4500.0 + scroll as f32,
+            30.0,
+            BLUE
+        );
+
         if debug_mode {
             draw_text(&format!("Scroll: {}", scroll), 0.0, 20.0, 30.0, LIME);
             draw_text(&format!("Max Scroll: {}", max_scroll), 0.0, 50.0, 30.0, LIME);
