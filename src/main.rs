@@ -25,7 +25,7 @@ async fn main() {
             scroll -= 50
         }
 
-        if is_key_pressed(KeyCode::Slash) {
+        if is_key_pressed(KeyCode::D) {
             debug_mode = true
         }
 
