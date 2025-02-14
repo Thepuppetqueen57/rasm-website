@@ -13,7 +13,7 @@ fn get_text_length(text: &str, font_size: f32) -> f32 {
 async fn main() {
     let mut scroll: i16 = 0;
     let mut debug_mode: bool = false;
-    let max_scroll: i16 = -32000;
+    let max_scroll: i16 = -4000;
 
     loop {
         // Logic
